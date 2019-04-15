@@ -11,9 +11,7 @@ Sbonelo Mdluli(1101772), Heemal Ryan(792656), Haroon Rehman(1438756)
 
 One can install Mrs-MapReuce from using this link
 
-```
 https://pythonhosted.org/mrs-mapreduce/installation.html
-```
 
 ### Running
 running a mapreduce script usng Mrs MapReduce
