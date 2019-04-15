@@ -1,4 +1,4 @@
-# MapReduce
+# ELEN4020_LAB3 - MapReduce
 
 This lab looks at MapReduce using Mrs MapReduce framework
 
