@@ -4,7 +4,7 @@ This lab looks at MapReduce using Mrs MapReduce framework
 
 ## Info
 
-This is lab comprises of the following students.<\br>
+This is lab comprises of the following students.<br /> 
 Sbonelo Mdluli(1101772), Heemal Ryan(792656), Haroon Rehman(1438756)
 
 ### Installation
@@ -20,7 +20,7 @@ running a mapreduce script
 ```
 e.g python wordcount.py nameOftextFile nameofFolder
 ```
-nameOftextFile is the text file that cointains the text to be proccessed <\br>
-nameofFolder is the folder the output is saved in
+nameOftextFile is the text file that cointains the text to be proccessed <br /> 
+nameofFolder is the folder the output is saved in <br /> 
 ### Instructions
-The script with mapreduce shall be run first to generate the necessary file needed in the subsequent steps<\br>
+The script with mapreduce shall be run first to generate the necessary file needed in the subsequent steps<br /> 
