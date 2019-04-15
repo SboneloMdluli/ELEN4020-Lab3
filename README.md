@@ -18,9 +18,9 @@ https://pythonhosted.org/mrs-mapreduce/installation.html
 ### Running
 running a mapreduce script usng Mrs MapReduce
 ```
-e.g python wordcount.py nameOftextFile nameofFolder
+e.g python wordcount.py nameOftextFile outdir
 ```
 nameOftextFile is the text file that cointains the text to be proccessed <br /> 
-nameofFolder is the folder the output is saved in <br /> 
+outdir is the folder the output is saved in <br /> 
 ### Instructions
 The script with mapreduce shall be run first to generate the necessary file needed in the subsequent steps<br /> 
