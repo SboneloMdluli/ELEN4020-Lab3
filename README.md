@@ -16,7 +16,7 @@ https://pythonhosted.org/mrs-mapreduce/installation.html
 ```
 
 ### Running
-running a mapreduce script
+running a mapreduce script usng Mrs MapReduce
 ```
 e.g python wordcount.py nameOftextFile nameofFolder
 ```
