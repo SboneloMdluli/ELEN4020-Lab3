@@ -1,10 +1,9 @@
 import mrs
 import string
- 
+
 class WordCount(mrs.MapReduce):
-  
+   
     def map(self, key, value):
-            
         stop = [ "a", "about", "above", "after", "again", 
 	"against", "all", "am", "an", "and", "any", "are", 
 	"as", "at", "be", "because", "been", "before", "being", 
@@ -26,25 +25,26 @@ class WordCount(mrs.MapReduce):
 	"we've", "were", "what", "what's", "when", "when's", "where", 
 	"where's", "which", "while", "who", "who's", "whom", "why", 
 	"why's", "with", "would", "you", "you'd", "you'll", "you're", 
-"you've", "your", "yours", "yourself", "yourselves"]
-        lines = []
-        value = value.split()  
+        "you've", "your", "yours", "yourself", "yourselves"]
+            
+        value = value.split()
+        
         value = [word.strip(string.punctuation).lower().encode('utf-8') for word in value]
         
         for stpWord in stop:
             while stpWord in value:
                 value.remove(stpWord)
-                
+            
         for word in value:
-                 line = value[0]
-                 if not str.isdigit(word):
-                        yield (word,line)
+                if not str.isdigit(word):
+                   yield (word,1)
             
             
     def reduce(self, key, values):
-        vals = l(values)
+        vals = sum(values)
         yield vals
-        
+     
+
 if __name__ == '__main__':  
     mrs.main(WordCount)
             

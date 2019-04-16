@@ -3,8 +3,7 @@ import os
 import string
 
 def sortList(text):
-	text.sort(key= lambda x: x[1], reverse=True)
-	return text
+	return text.sort(key= lambda x: x[1], reverse=True)
 	
 def top_Kquery(text, k):
 	return(text[:k])
@@ -13,8 +12,8 @@ def process():
         cur_ = os.getcwd()
 	dir_ = os.path.join(cur_, "outdir")
 	fname = os.path.join(dir_,"source_0_split_0_.mtxt")
-	f = open(fname, "r")
-	text = f.readlines()
+	with open(fname, "r") as f:
+	    text = f.readlines()
 	
 	for i in text:
 	   text[text.index(i)] = tuple(i.split()) 
