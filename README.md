@@ -19,7 +19,7 @@ The script with mapreduce shall be run first to generate the necessary file need
 ### Running
 running a mapreduce script usng Mrs MapReduce
 ```
-e.g python wordcount.py nameOftextFile nameofFolder
+e.g python wordcount.py nameOftextFile outdir
 ```
 nameOftextFile is the text file that cointains the text to be proccessed <br /> 
 outdir is the folder the output is saved in <br /> 
