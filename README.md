@@ -13,8 +13,8 @@ One can install Mrs-MapReuce from usding this link <br />
 https://pythonhosted.org/mrs-mapreduce/installation.html
 
 ### Instructions
-The program must be run under a python environment which can be done by following the commands in this link
-https://linuxize.com/post/how-to-create-python-virtual-environments-on-ubuntu-18-04/
+The program must be run under a python environment which can be done by following the commands in this link  <br />
+https://linuxize.com/post/how-to-create-python-virtual-environments-on-ubuntu-18-04/  <br />
 The script with mapreduce shall be run first to generate the necessary file needed in the subsequent steps. Run the wordcount.py and linecount.py files first
 to generate output files for topquery.py and invertedIndex.py. This MUST be done in order to run all the code correctly.<br />
 
